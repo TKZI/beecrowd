@@ -12,6 +12,7 @@ public class exercicio1004 {
         Integer PROD = a * b;
 
         System.out.println("PROD = " + PROD);
+        entrada.close();
     }
 
 }

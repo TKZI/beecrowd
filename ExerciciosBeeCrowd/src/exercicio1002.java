@@ -11,7 +11,7 @@ public class exercicio1002 {
         double A = n * Math.pow(R, 2);
 
         System.out.printf("A=%.4f%n", A);
-
+        entrada.close();
     }
 
 }

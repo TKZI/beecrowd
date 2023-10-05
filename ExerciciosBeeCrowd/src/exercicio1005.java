@@ -13,7 +13,8 @@ public class exercicio1005 {
         MEDIA = ((3.5 * a) + (7.5 * b)) / 11;
         ;
 
-        System.out.printf(String.format("MEDIA = %.5f", MEDIA));
+        System.out.printf(String.format("MEDIA = %.5f%n", MEDIA));
+        entrada.close();
     }
 
 }
