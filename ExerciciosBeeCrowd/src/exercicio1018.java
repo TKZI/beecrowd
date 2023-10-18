@@ -15,7 +15,7 @@ public class exercicio1018 {
             int calcula = valor / percorrer2;
             valor %= percorrer2;
 
-            System.out.printf("%d nota(s) de R$ %d,00 %n", calcula, percorrer2);
+            System.out.println(calcula + " nota(s) de R$ " + percorrer2 + ",00");
 
         }
         entrada.close();

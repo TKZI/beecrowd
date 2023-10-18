@@ -16,5 +16,7 @@ public class exercicio1010 {
 
         System.out.printf("VALOR A PAGAR: R$ %.2f%n", valorAPagar);
 
+        entrada.close();
+
     }
 }
