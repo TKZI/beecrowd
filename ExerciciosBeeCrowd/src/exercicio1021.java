@@ -7,12 +7,11 @@ public class exercicio1021 {
         Locale.setDefault(new Locale("en", "US"));
         Scanner entrada = new Scanner(System.in);
 
-        
         double valorReais = entrada.nextDouble();
         int valorCentavos = (int) (valorReais * 100);
 
-        int notas[] = { 10000, 5000, 2000, 1000, 500, 200 }; 
-        int moedas[] = { 100, 50, 25, 10, 5, 1 }; 
+        int notas[] = { 10000, 5000, 2000, 1000, 500, 200 };
+        int moedas[] = { 100, 50, 25, 10, 5, 1 };
 
         System.out.println("NOTAS:");
         for (int nota : notas) {
@@ -30,6 +29,4 @@ public class exercicio1021 {
 
         entrada.close();
     }
-    }
-
 }
